@@ -11,7 +11,7 @@ function Test1(props){
             muted={false}
             config={{
                 twitch: {
-                    options: { controls: false}
+                    options: { controls: false, allowfullscreen: false},
                 }}}
         />
     )

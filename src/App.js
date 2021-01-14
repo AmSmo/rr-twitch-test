@@ -4,12 +4,14 @@ import Base from './Base'
 import Test1 from './Test1'
 import Iframe from './Iframe'
 import Both from './Both'
+import Youtube from './Youtube'
 function App() {
   return (
     <Switch>
       <Route path='/test1' component={Test1} />
       <Route path='/iframe' component={Iframe} />
       <Route path='/both' component={Both} />
+      <Route path='/youtube' component={Youtube} />
       <Route path='/' component={Base} />
     </Switch>
   );
